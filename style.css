@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Galien-Regular;
+  src: url('/Galien-GraphicEx.com/OTF/Galien-Regular.otf');
+}
+
+@font-face {
+  font-family: Galien-Poster;
+  src: url('/Galien-GraphicEx.com/OTF/Galien-Poster.otf');
+}
+
+@font-face {
+  font-family: Galien-Light;
+  src: url('/Galien-GraphicEx.com/OTF/Galien-Light.otf');
+}
+
+
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: #E5E5E5;
+display: flex;
+}
+
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-direction: column;
+}
+
+header{
+  width: 1300px;
+  height: 768;
+  margin-top: 60px;
+}
+
+.illustration {
+  justify-content: space-between;
+  text-align: right;
+  padding-right: 5% ;
+}
+.title{
+  margin-top: 25px;
+  float: left;
+}
+
+.title > h1{
+  font-size: 72px;
+  font-family: Galien-Light;
+}
+
+.title > p{
+  font-family: Galien-Light;
+  font-family: arial;
+  color: rgb(0, 0, 0);
+}
+
+.btntitle{
+  margin-top: 30px;
+  font-family: Galien-Regular;
+  height:56px;
+  width:220px ;
+  background:rgba(68, 145, 218, 0.932) ;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  font-size: 22px;
+  box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.473);
+}
+
+main{
+}
+
+aside{
+
+}
+
+footer{
+
+}
